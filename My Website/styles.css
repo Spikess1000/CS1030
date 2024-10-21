@@ -22,8 +22,20 @@ header .title-box.title {
     background-position: center;
     padding: 20px;
     text-align: center;
+}
+
+.image-box.main {
     background-image: url("images/Mall.jpg");
 }
+
+.image-box.items {
+    background-image: url("images/OpenShop.jpg");
+}
+
+.image-box.checkout {
+    background-image: url("images/Paying.jpg");
+}
+
 
 ul {
     background: rgba(0, 0, 139, 0.488);
