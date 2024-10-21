@@ -1,24 +1,55 @@
 body {
-    background: white;
+    background: black;
     margin: 0;
     padding: 0;
     color: black;
     font-family:'Times New Roman', Times, serif;
 }
 
-header {
+header .title-box.title {
     text-align: center;
-    margin: 0;
+    margin: auto;
+    width: auto;
     background: navy;
     font-size: 400%;
     color: rgb(221, 2, 221);
 } 
 
+.image-box {
+    margin: 10px;
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    background-image: url("images/Mall.jpg");
+}
+
 ul {
-    background: black;
+    background: rgba(0, 0, 139, 0.488);
     margin: 0;
     padding: 20px;
     list-style-type: none;
+}
+
+.feature-box {
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-box.welcome{
+    background: rgb(125, 125, 255);
+    color: purple;
+    margin: auto;
+    font-size: 175%;
+}
+
+.feature-box.description {
+    background: skyblue;
+    color: purple;
+    margin: auto;
+    font-size: 125%;
 }
 
 li {
@@ -34,34 +65,10 @@ a:hover {
     text-decoration: underline;
 }
 
-button {
-    color: rgb(0, 255, 98);
-    background: red;
-}
-
-.feature-box {
-    /* padding: 20px; */
-    display: flex;
-    flex-direction: row;
-}
-
-.feature-box.welcome{
-    background: rgb(125, 125, 255);
-    color: purple;
-    font-size: 175%;
-}
-
-.feature-box.description {
-    background: skyblue;
-    color: purple;
-    font-size: 125%;
-}
-
 div {
     text-align: center;
     margin: auto;
-    width: auto;
-    
+    width: auto;  
 }
 
 p {
