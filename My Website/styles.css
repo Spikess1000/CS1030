@@ -6,10 +6,20 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
-header .title-box.title {
+.title-box {
     text-align: center;
     margin: auto;
     width: auto;
+}
+
+.title-box.login {
+    background: white;
+    font-size: 300%;
+    color: black;
+    margin: 20px;
+}
+
+header .title-box.title {
     background: navy;
     font-size: 400%;
     color: rgb(221, 2, 221);
@@ -73,10 +83,19 @@ header .title-box.title {
     background-image: url("images/Paying.jpg");
 }
 
+.image-box.login {
+    background-image: url("images/login.jpg");
+}
+
 button {
     text-align: center;
     margin: auto;
     width: auto;
+}
+
+.cardName {
+    width: 300px;
+    height: 20px;
 }
 
 ul {
@@ -127,6 +146,49 @@ div {
     text-align: center;
     margin: auto;
     width: auto;  
+}
+
+footer {
+    background: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.text-box{
+    background: white;
+}
+
+.credit
+{
+    width: 300px;
+    height: 20px;
+}
+
+.expiration{
+    width: 75px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.security{
+    width: 160px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.password{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.username {
+    text-align: center;
+    height: 20px;
+    width: 200px;
 }
 
 p {
